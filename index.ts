@@ -1,49 +1,42 @@
 
-// Type of scientist: number | string
-let scientist1 = Math.random() > 0.5
-? "k"
-: false;
-let q:number|string=21;
-console.log(q === 88,q);
-console.log(scientist1 ===false,scientist1);//typeof s 
-if (scientist1 === "k") {
+// Type  scientist: number | string
+// let scientist = Math.random() > 0.5
+// ? "Rosalind Franklin"
+// : undefined;
+// if (scientist) {//truthness
+
+//     console.log(typeof scientist);
+//     console.log("if",scientist);
+// // Type of scientist: string
+// scientist.toUpperCase(); // Ok
+// }else{
+//     console.log(typeof scientist);
+// console.log(scientist);
+
+// }
+// scientist&&scientist.toLocaleUpperCase();
+// scientist?.toLowerCase();
+
+
+type  Scientist= number | string
+let scientist = Math.random() > 0.5
+? undefined
+: 99;
+if (  scientist) {//truthness
+
+    console.log(typeof scientist);
+    console.log("if",scientist);
 // Type of scientist: string
-console.log("if=", scientist1);
-console.log("if typeof false scientist1=",typeof scientist1);
+//scientist.toUpperCase(); // Ok
+}else{
+    console.log(typeof scientist);
+console.log(scientist);
 
-//scientist1.toUpperCase(); // Ok
 }
-else{// Type of scientist: number | string
-//scientist1.toUpperCase();
-console.log("else block false=", typeof scientist1);}
-
-console.log("out ",scientist1);
-console.log("out typeof = ", typeof scientist1);
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("git multan branch hello dear");
+console.log("git main branch hello dear");
+console.log("git main branch hello dear");
